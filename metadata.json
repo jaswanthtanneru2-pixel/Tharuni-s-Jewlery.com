@@ -1,0 +1,6 @@
+{
+  "name": "Tharuni's Jewelry",
+  "description": "Luxury artificial jewelry catalog and brochure with AD stone bridal sets, Kundan collections, temple jewelry, price tags, and interactive QR website scanner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
