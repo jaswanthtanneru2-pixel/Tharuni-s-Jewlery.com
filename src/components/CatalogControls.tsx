@@ -40,7 +40,7 @@ export const CatalogControls: React.FC<CatalogControlsProps> = ({
         <div className="text-[10px] text-[#c5a059] font-sans font-semibold uppercase tracking-[0.2em] mb-2.5 flex items-center justify-between">
           <span className="flex items-center gap-1.5">
             <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-            Jewelry Categories
+            Jewellery Categories
           </span>
           <span className="text-[#e0d8cc]/50 font-normal">
             Showing <strong className="text-[#c5a059] font-serif">{totalResults}</strong> Jewels

@@ -45,7 +45,7 @@ export const DigitalBrochure: React.FC<DigitalBrochureProps> = ({
             <span>Official Showroom Digital Brochure</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-serif font-light text-[#c5a059]">
-            Tharuni's Jewelry Deluxe Brochure & Price Guide
+            Tharuni's Jewellery Deluxe Brochure & Price Guide
           </h2>
           <p className="text-xs text-[#e0d8cc]/60 font-light">
             Flip through our luxury booklet or print/save as PDF to present to family and friends.
@@ -100,10 +100,10 @@ export const DigitalBrochure: React.FC<DigitalBrochureProps> = ({
                 <Sparkles className="w-8 h-8 text-[#c5a059]" />
               </div>
               <h1 className="text-3xl sm:text-4xl font-serif font-light tracking-tight text-[#c5a059] uppercase">
-                THARUNI'S JEWELRY
+                THARUNI'S JEWELLERY
               </h1>
               <p className="text-xs sm:text-sm text-[#e0d8cc]/80 font-sans tracking-[0.25em] uppercase font-semibold">
-                Grand Artificial & Fashion Jewelry Catalog
+                Grand Artificial & Fashion Jewellery Catalog
               </p>
               <div className="text-xs text-[#e0d8cc]/60 max-w-lg mx-auto font-light">
                 📍 {SHOP_INFO.address} • 📞 WhatsApp: {SHOP_INFO.phone}
@@ -275,7 +275,7 @@ export const DigitalBrochure: React.FC<DigitalBrochureProps> = ({
                   includeMargin={false}
                 />
                 <div className="mt-2 text-[10px] font-sans font-bold text-stone-900 uppercase tracking-[0.2em]">
-                  THARUNI'S JEWELRY • WEBSITE SCANNER
+                  THARUNI'S JEWELLERY • WEBSITE SCANNER
                 </div>
               </div>
 
@@ -308,7 +308,7 @@ export const DigitalBrochure: React.FC<DigitalBrochureProps> = ({
 
         {/* Footer Brochure Navigation Bar */}
         <div className="mt-8 pt-4 border-t border-[#c5a059]/20 flex items-center justify-between text-xs text-[#e0d8cc]/60 font-sans tracking-wider">
-          <span className="uppercase">THARUNI'S JEWELRY BROCHURE</span>
+          <span className="uppercase">THARUNI'S JEWELLERY BROCHURE</span>
           <div className="flex items-center gap-2">
             <button
               onClick={onOpenScanner}

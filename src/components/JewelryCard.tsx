@@ -21,7 +21,7 @@ export const JewelryCard: React.FC<JewelryCardProps> = ({
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Tharuni's Jewelry, I want to inquire about: ${item.name} (Code: ${item.code}) priced at ₹${item.price.toLocaleString('en-IN')}. Is this available in stock?`
+    `Hello Tharuni's Jewellery, I want to inquire about: ${item.name} (Code: ${item.code}) priced at ₹${item.price.toLocaleString('en-IN')}. Is this available in stock?`
   );
 
   return (

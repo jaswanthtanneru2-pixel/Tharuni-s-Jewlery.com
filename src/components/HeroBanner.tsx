@@ -38,7 +38,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
           </h1>
 
           <p className="text-[#e0d8cc]/70 text-sm sm:text-base max-w-2xl font-light leading-relaxed">
-            Welcome to <strong className="text-[#c5a059] font-normal">Tharuni's Jewelry</strong>.
+            Welcome to <strong className="text-[#c5a059] font-normal">Tharuni's Jewellery</strong>.
             Discover timeless Reverse AD stones, uncut Kundan Polki, micro-gold plated bridal sets,
             and antique temple neckpieces. Every creation is crafted to highlight grand opulence at accessible costs.
           </p>
@@ -78,7 +78,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
             </button>
 
             <a
-              href={`https://wa.me/${SHOP_INFO.whatsapp}?text=Hi%20Tharuni%27s%20Jewelry%2C%20I%20saw%20your%20jewel%20brochure%20and%20want%20to%20know%20more.`}
+              href={`https://wa.me/${SHOP_INFO.whatsapp}?text=Hi%20Tharuni%27s%20Jewellery%2C%20I%20saw%20your%20jewel%20brochure%20and%20want%20to%20know%20more.`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-3 rounded-full bg-[#121212] hover:bg-[#1a1a1a] border border-emerald-500/40 text-emerald-400 text-xs font-sans tracking-wider uppercase font-medium transition flex items-center gap-2"

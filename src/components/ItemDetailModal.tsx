@@ -36,7 +36,7 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
   const [selectedImg, setSelectedImg] = useState(allImages[0]);
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Tharuni's Jewelry, I am interested in: ${item.name} (Code: ${item.code}) priced at ₹${item.price.toLocaleString('en-IN')}. Please confirm stock availability and booking procedure.`
+    `Hello Tharuni's Jewellery, I am interested in: ${item.name} (Code: ${item.code}) priced at ₹${item.price.toLocaleString('en-IN')}. Please confirm stock availability and booking procedure.`
   );
 
   return (

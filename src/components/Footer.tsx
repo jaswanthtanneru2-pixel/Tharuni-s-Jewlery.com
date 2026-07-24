@@ -25,7 +25,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenScanner, setActiveTab }) =
             </div>
             <div>
               <h3 className="text-lg font-serif font-light text-[#c5a059] tracking-widest uppercase">
-                THARUNI'S JEWELRY
+                THARUNI'S JEWELLERY
               </h3>
               <p className="text-[10px] text-[#e0d8cc]/50 font-sans tracking-[0.2em] uppercase">
                 Grand Artificial & Fashion Jewels
@@ -96,7 +96,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenScanner, setActiveTab }) =
             </div>
 
             <p className="text-[11px] text-[#e0d8cc]/60 leading-snug font-light">
-              Scan this QR code with any mobile camera to launch Tharuni's Jewelry digital showcase on your phone!
+              Scan this QR code with any mobile camera to launch Tharuni's Jewellery digital showcase on your phone!
             </p>
 
             <button
@@ -113,7 +113,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenScanner, setActiveTab }) =
       {/* Bottom Copyright Bar */}
       <div className="max-w-7xl mx-auto pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-[#e0d8cc]/40 gap-3 font-sans">
         <div>
-          © {new Date().getFullYear()} <strong className="text-[#c5a059] font-normal">Tharuni's Jewelry</strong>. All rights reserved.
+          © {new Date().getFullYear()} <strong className="text-[#c5a059] font-normal">Tharuni's Jewellery</strong>. All rights reserved.
         </div>
 
         <div className="flex items-center gap-4 text-[#c5a059]/80 text-[11px] uppercase tracking-wider">

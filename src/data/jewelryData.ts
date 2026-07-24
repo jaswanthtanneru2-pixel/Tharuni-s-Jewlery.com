@@ -4,7 +4,7 @@ export const JEWELRY_CATEGORIES: JewelryCategory[] = [
   {
     id: 'all',
     name: 'All Jewels',
-    description: 'Explore our complete grand collection of artificial jewelry',
+    description: 'Explore our complete grand collection of artificial jewellery',
     iconName: 'Sparkles',
   },
   {
@@ -16,7 +16,7 @@ export const JEWELRY_CATEGORIES: JewelryCategory[] = [
   {
     id: 'ad-silver',
     name: 'Reverse AD & Silver',
-    description: 'High-grade Reverse AD stones & diamond finish silver jewelry',
+    description: 'High-grade Reverse AD stones & diamond finish silver jewellery',
     iconName: 'Gem',
   },
   {
@@ -28,7 +28,7 @@ export const JEWELRY_CATEGORIES: JewelryCategory[] = [
   {
     id: 'temple',
     name: 'Antique Temple Gold',
-    description: 'South Indian traditional matte gold & Lakshmi motif jewelry',
+    description: 'South Indian traditional matte gold & Lakshmi motif jewellery',
     iconName: 'Flower2',
   },
   {
@@ -328,13 +328,13 @@ export const JEWELRY_ITEMS: JewelryItem[] = [
 ];
 
 export const SHOP_INFO = {
-  name: "Tharuni's Jewelry",
-  tagline: "Exclusive Grand Artificial & Fashion Jewelry",
+  name: "Tharuni's Jewellery",
+  tagline: "Exclusive Grand Artificial & Fashion Jewellery",
   subheading: "Where Opulence Meets Craftsmanship - Luxury AD, Kundan & Temple Jewels",
   phone: "+91 98765 43210",
   whatsapp: "919876543210",
-  email: "contact@tharunisjewelry.com",
-  address: "Plot #42, Royal Heritage Plaza, Main Jewelry Market, Hyderabad, TS, India",
+  email: "contact@tharunisjewellery.com",
+  address: "Plot #42, Royal Heritage Plaza, Main Jewellery Market, Hyderabad, TS, India",
   hours: "Mon - Sun: 10:00 AM - 9:30 PM",
-  websiteUrl: typeof window !== 'undefined' ? window.location.href : 'https://tharunisjewelry.app',
+  websiteUrl: typeof window !== 'undefined' ? window.location.href : 'https://tharunisjewellery.app',
 };

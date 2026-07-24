@@ -27,11 +27,11 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="bg-[#121212] py-1.5 px-4 text-center text-xs tracking-widest font-sans uppercase text-[#c5a059]/90 flex items-center justify-between border-b border-[#c5a059]/15">
         <div className="hidden sm:flex items-center gap-2 text-[#c5a059]">
           <Sparkles className="w-3.5 h-3.5 text-[#c5a059] animate-pulse" />
-          <span>Haute Joaillerie Collection • Up to 65% OFF Artificial Jewels</span>
+          <span>Grand Collection • Up to 65% OFF Artificial Jewels</span>
         </div>
         <div className="mx-auto sm:mx-0 flex items-center gap-4">
           <a
-            href={`https://wa.me/${SHOP_INFO.whatsapp}?text=Hello%20Tharuni%27s%20Jewelry%2C%20I%20would%20like%20to%20inquire%20about%20your%20jewel%20collection.`}
+            href={`https://wa.me/${SHOP_INFO.whatsapp}?text=Hello%20Tharuni%27s%20Jewellery%2C%20I%20would%20like%20to%20inquire%20about%20your%20jewel%20collection.`}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition flex items-center gap-1 font-mono text-[11px]"
@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
               THARUNI'S
             </h1>
             <p className="text-[10px] sm:text-[11px] text-[#e0d8cc]/60 font-sans tracking-[0.3em] uppercase font-light">
-              Artificial Haute Joaillerie
+              Grand Artificial Collection
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ export const Header: React.FC<HeaderProps> = ({
           <button
             onClick={onOpenWishlist}
             className="relative p-2 rounded-full bg-[#121212] border border-[#c5a059]/30 hover:border-[#c5a059] text-[#c5a059] hover:text-[#e0d8cc] transition"
-            title="Saved Jewelry Inquiries"
+            title="Saved Jewellery Inquiries"
           >
             <Heart className="w-4 h-4 text-[#c5a059]" />
             {wishlistCount > 0 && (

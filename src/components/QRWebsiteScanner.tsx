@@ -92,7 +92,7 @@ export const QRWebsiteScanner: React.FC<QRWebsiteScannerProps> = ({
         <div className="text-center space-y-1 mb-5">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#080808] border border-[#c5a059]/30 text-[#c5a059] text-[10px] font-sans uppercase tracking-[0.2em]">
             <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-            <span>Tharuni's Jewelry Scanner</span>
+            <span>Tharuni's Jewellery Scanner</span>
           </div>
           <h2 className="text-2xl font-serif font-light text-[#c5a059]">
             {selectedItemForQR ? `Jewel Tag: ${selectedItemForQR.code}` : 'Visit Web & Shop QR'}
@@ -100,7 +100,7 @@ export const QRWebsiteScanner: React.FC<QRWebsiteScannerProps> = ({
           <p className="text-xs text-[#e0d8cc]/60 font-light">
             {selectedItemForQR
               ? 'Scan code to view this jewel directly on mobile'
-              : 'Scan code with camera to open Tharuni\'s Jewelry online catalog'}
+              : 'Scan code with camera to open Tharuni\'s Jewellery online catalog'}
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export const QRWebsiteScanner: React.FC<QRWebsiteScannerProps> = ({
                 }}
               />
               <div className="mt-2 pt-2 border-t border-stone-200 text-[10px] text-stone-900 font-sans font-bold uppercase tracking-[0.2em]">
-                THARUNI'S JEWELRY • SCAN TO VISIT
+                THARUNI'S JEWELLERY • SCAN TO VISIT
               </div>
             </div>
 
@@ -211,7 +211,7 @@ export const QRWebsiteScanner: React.FC<QRWebsiteScannerProps> = ({
 
               <Camera className="w-8 h-8 text-[#c5a059]/60 animate-pulse mb-2" />
               <p className="text-xs text-[#e0d8cc]/80 font-light text-center">
-                Point camera at any Tharuni's Jewelry Tag or QR Code
+                Point camera at any Tharuni's Jewellery Tag or QR Code
               </p>
 
               {scanSuccess && (

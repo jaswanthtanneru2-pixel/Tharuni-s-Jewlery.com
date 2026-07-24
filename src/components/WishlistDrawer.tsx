@@ -31,7 +31,7 @@ export const WishlistDrawer: React.FC<WishlistDrawerProps> = ({
     .join('%0A');
 
   const whatsappInquiryMessage = encodeURIComponent(
-    `Hello Tharuni's Jewelry, I have compiled a list of jewels I would like to inquire about:%0A%0A${decodeURIComponent(
+    `Hello Tharuni's Jewellery, I have compiled a list of jewels I would like to inquire about:%0A%0A${decodeURIComponent(
       combinedItemsText
     )}%0A%0ATotal Estimated Cost: ₹${totalCost.toLocaleString(
       'en-IN'
